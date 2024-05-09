@@ -1,0 +1,80 @@
+:root {
+    --font: monospace, system-ui;
+    
+    --text: #e4e4e4;
+    --bg: #000000;
+    --border: #9CC07E;
+    --link: #a0d178;
+    --hover: #7c9269;
+}
+ 
+* {
+    font-family: var(--font);
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    max-width: 710px;
+    margin: 0 auto;
+    padding: 4%;
+}
+
+.term-abt {
+    border: 2px solid var(--border);
+    padding: 0px 0px 0px 2rem;
+    margin-bottom: 0.6rem;
+}
+
+.abt {
+    border: 2px solid var(--border);
+    padding: 0px 2rem 0px 2rem;
+}
+
+.abt h2 { margin-bottom: -10px; }
+
+pre {
+    margin-bottom: 1%;
+    margin-top: -0.5%;
+}
+
+.term-links {
+    border: 2px solid var(--border);
+    padding: 0px 0px 0px 2rem;
+    margin-bottom: 0.6rem;
+    margin-top: 0.6rem;
+}
+
+.links {
+    border: 2px solid var(--border);
+    padding: 0px 2rem 0px 2rem;
+}
+
+.links h2 { margin-bottom: -10px; }
+
+.term-projects {
+    border: 2px solid var(--border);
+    padding: 0px 0px 0px 2rem;
+    margin-bottom: 0.6rem;
+    margin-top: 0.6rem;
+}
+
+.projects {
+    border: 2px solid var(--border);
+    padding: 0px 0px 1rem 2rem;
+}
+
+.projects h2 { margin-bottom: 10px; }
+
+.hint {
+    color: #424f44;
+    font-style: italic;
+    font-size: 12px;
+    cursor: default;
+}
+
+a { color: var(--link); }
+
+a:hover { color: var(--hover); }
+
+mark { color: var(--link); background: transparent; text-decoration: underline;}

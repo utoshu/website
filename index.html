@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>uto</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+  <div class="term-abt" onclick="termAbtClicked()">
+    <p>uto@arch:~$ <mark>about</mark> <span class="hint">(click to show/hide)</span></p>
+  </div>
+
+  <script>
+    function termAbtClicked() {
+      var x = document.getElementsByClassName("abt")[0];
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+
+  <div class="abt" style="display: none;">
+  <h2>hey, im uto</h2>
+  <p>im a 13 y/o self-taught developer who enjoys coding, my favourite languages are C# & C++, 
+    i have experience in static & vanilla website development, windows forms applications, imgui with c++, & a lil rust. im currently learning rust
+    and c. <br> some of my hobbies include basketball, chess hang out with friends, writing & reading, family time & eating.
+  </p>
+  </div>
+
+  
+    <div class="term-links" onclick="termLinksClicked()">
+      <p>uto@arch:~$ <mark>links</mark> <span class="hint">(click to show/hide)</span></p>
+    </div>
+    
+    <script>
+      function termLinksClicked() {
+        var x = document.getElementsByClassName("links")[0];
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+    
+    <div class="links" style="display: none;">
+      <h2>links</h2>
+      <ul>
+        <li>github - <a href="https://github.com/utoshu" target="_blank">utoshu</a></li>
+        <li>codeberg - <a href="https://codeberg.org/uto" target="_blank">uto</a></li>
+        <li>discord - <a href="https://discord.com/users/537265937200709672" target="_blank">utoshu</a></li>
+        <li>telegram - <a href="https://t.me/utoshu" target="_blank">utoshu</a></li>
+        <li>signal - <mark>@uto.01</mark></li>
+        <li>age - <mark>age1m4w9fv3d0se38csz0lyh5e6dewv6e339da2pe5ng0u7flcu399cqnd346r</mark></li>
+      </ul>
+    </div>
+
+  <div class="term-projects" onclick="termProjectsClicked()">
+    <p>uto@arch:~$ <mark>projects</mark> <span class="hint">(click to show/hide)</span></p>
+  </div>
+
+  <script>
+    function termProjectsClicked() {
+      var x = document.getElementsByClassName("projects")[0];
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+
+  <div class="projects" style="display: none;">
+    <h2>projects</h2>
+    <details>
+      <summary>website</summary>
+      <ul>
+        <li>link: <a href="https://uto.pages.dev" target="_blank">https://uto.pages.dev</a></li>
+        <li>source code: <a href="https://codeberg.org/uto/website" target="_blank">codeberg.org/uto</a></li>
+        <li>description: my personal website written with default html, css & a small bit of js :)</li>
+        <li>languages: html, css, js</li>
+        <li>status: active since the 9th of May 2024</li>
+        <li>license: NONE</li>
+      </ul>
+    </details>
+
+  </div>
+
+</body>
+</html>
