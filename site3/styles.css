@@ -1,0 +1,81 @@
+html, body {
+    overflow-y: none;
+    overflow-x: none;
+    margin: 0;
+    padding: 0;
+    background: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    font-family: monospace;
+}
+
+.abt p {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.center,
+.im {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.im {
+    margin: 13% auto;
+    margin-bottom: -4rem;
+}
+
+.center {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: rgb(229, 203, 250);
+}
+
+.dot {
+    color: white;
+}
+
+::selection {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+.socials ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.socials li {
+    display: flex;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.center br {
+    content: '\A';
+    display: contents;
+    white-space: pre;
+}
+
+/* button {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background: hsl(0, 0%, 0%);
+    color: hsl(255, 100%, 78%);
+    border: white solid 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
